@@ -1,0 +1,70 @@
+<footer class="main-footer">
+    <div class="auto-container">
+        <!--Widgets Section-->
+        <div class="widgets-section">
+            <div class="row clearfix">
+
+                <div class="big-column col-md-6 col-sm-12 col-xs-12">
+                    <div class="row clearfix">
+
+                        <!--Footer Column-->
+                        <div class="footer-column col-md-6 col-sm-6 col-xs-12">
+                            <div class="footer-widget links-widget">
+                                <h2>Menu</h2>
+                                <div class="widget-content">
+                                    <ul class="list">
+                                        <li><a href="o-nas.html">O nas</a></li>
+                                        <li><a href="fizykoterapia.html">Fizykoterapia</a></li>
+                                        <li><a href="kinezyterapia.html">Kinezyterapia</a></li>
+                                        <li><a href="masaz.html">Masaż</a></li>
+                                        <li><a href="cennik.html">Cennik</a></li>
+                                        <li><a href="kontakt.html">Kontakt</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Footer Column-->
+                        <div class="footer-column col-md-6 col-sm-6 col-xs-12">
+                            <div class="footer-widget info-widget">
+                                <h2>Kontakt</h2>
+                                <div class="widget-content">
+                                    <div class="number">602 462 409</div>
+                                    <div class="text">kontakt@grzegorzstawarz.pl <br> Szczecin 71-711, Grzymińska 32
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--Footer Bottom-->
+    <div class="footer-bottom">
+        <div class="auto-container clearfix">
+            <div class="pull-left">
+<!--                <div class="copyright">Copyright &copy; Healing 2018. All rights reserved.</div>-->
+                <div class="copyright">Copyright &copy; Szymon Bartanowicz, 2021</div>
+            </div>
+<!--            <div class="pull-right">-->
+<!--                <div class="created">Created by: ThemeArc</div>-->
+<!--            </div>-->
+        </div>
+    </div>
+</footer>
+
+<script>
+    var path = window.location.pathname;
+    path = path.substr(1, path.length - 1);
+
+    $(".list a").each(function () {
+        var href = $(this).attr('href');
+
+        if (path === href) {
+            $(this).closest('li').addClass('current');
+        }
+    });
+</script>

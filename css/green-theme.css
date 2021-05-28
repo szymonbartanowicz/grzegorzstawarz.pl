@@ -1,0 +1,197 @@
+/* Theme Color File */
+
+a,
+.theme_color,
+.btn-style-three,
+.news-block .inner-box .lower-box .read-more,
+.welcome-section .content-column .title,
+.main-menu .navigation > li:hover > a,
+.main-menu .navigation > li.current > a,
+.main-header .header-top .top-left .links li a:hover,
+.services-section .owl-prev:hover,
+.services-section .owl-next:hover,
+.news-section .sidebar-news .all-blog,
+.testimonial-section .owl-nav .owl-prev:hover,
+.testimonial-section .owl-nav .owl-next:hover,
+.main-footer .list li a:hover,
+.social-icon-one li a:hover,
+.clinic-section .content-column .content-inner .title,
+.therapy-block .inner-box h3 a:hover,
+.therapy-block .inner-box .icon-box,
+.news-block .inner-box .lower-box .post-info span,
+.main-header .info-box .icon-box,
+.list-style-two li:before,
+.year-block .inner-box .year,
+.list-style-one li:before,
+.services-block-two .inner-box .lower-box h3 a:hover,
+.testimonial-section.style-two .testimonial-block .inner-box .author-name,
+.gallery-section .filters .filter.active,
+.gallery-section .filters .filter:hover,
+.gallery-section .filters .filter.active,
+.gallery-section .filters .filter:hover,
+.news-block-four .inner-box .lower-content .post-date,
+.news-block-four .inner-box .lower-content h3 a:hover,
+.sidebar .popular-posts .post a,
+.shop-single .comments-area .comment .comment-inner .rating .fa,
+.sidebar .popular-posts .post a:hover,
+.cart-table tbody tr .remove-btn:hover,
+.checkout-page .default-links li a,
+.shop-item .inner-box .lower-content h3 a:hover,
+.shop-item .inner-box .lower-content .price,
+.shop-comment-form .rating-box .rating a:hover,
+.products-section .content-column .inner-column h2 span,
+.shop-item-two .inner-box .lower-content .price,
+.news-block-three .inner-box .lower-content .upper-box .post-date,
+.news-block-three .inner-box .lower-content .upper-box h3 a:hover,
+.btn-style-five:hover, .list > li.current > a {
+    color: #7fb943;
+}
+
+/*Background Color*/
+.btn-style-one,
+.sec-title h2:after,
+.fluid-section-one,
+.main-slider h2 .pain,
+.btn-style-two:hover,
+.scroll-to-top:hover,
+.btn-style-three:hover,
+.btn-style-four:hover,
+.welcome-section .image-column .image:before,
+.main-menu .navigation > li > ul,
+.news-block-two .inner-box:hover,
+.main-menu .navigation > li > ul > li > ul,
+.welcome-section .content-column .title:after,
+.main-footer .footer-widget h2:after,
+.btn-style-eight,
+.btn-style-nine:hover,
+.therapy-block .inner-box:hover .arrow-box,
+.services-section .services-title:after,
+.video-section.style-two,
+.header-style-three .header-top,
+.therapy-section .therapy-title .text:after,
+.patient-box .inner-box h3:after,
+.btn-style-seven:hover,
+.patient-list li a,
+.list-style-three li,
+.sidebar .popular-tags a:hover,
+.experiance-section .content-column h2:after,
+.therapists-single-section .content-column .title:after,
+.therapists-single-section .content-column h3:after,
+.comming-soon .emailed-form .form-group input[type="submit"],
+.comming-soon .emailed-form button,
+.blog-cat li.active a, .blog-cat li a:hover,
+.sidebar-title h2:after,
+.shop-features-section,
+.btn-style-ten,
+.shop-comment-form h2:before,
+.shop-single .product-details .prod-tabs .tab-btns .tab-btn,
+.shop-single .product-details .prod-tabs .tab-btns .tab-btn:before {
+    background-color: #7fb943;
+}
+
+
+/*Border Color*/
+
+.btn-style-one,
+.btn-style-three,
+.btn-style-four:hover,
+.btn-style-nine:hover,
+.social-icon-one li a:hover,
+.services-section .owl-prev:hover,
+.services-section .owl-next:hover,
+.default-form .form-group input:focus,
+.default-form .form-group textarea:focus,
+.testimonial-section .owl-nav .owl-prev:hover,
+.testimonial-section .owl-nav .owl-next:hover,
+.main-header .search-box-outer .dropdown-menu,
+.main-header .search-panel input:focus,
+.main-header .search-panel select:focus,
+.therapy-block .inner-box:hover .arrow-box,
+.sidebar .popular-tags a:hover,
+.btn-style-ten,
+.faq-search-box .form-group input:focus,
+.faq-form-section .form-group input[type="text"]:focus,
+.faq-form-section .form-group input[type="email"]:focus,
+.faq-form-section .form-group textarea:focus,
+.offer-form .form-group input[type="text"]:focus,
+.offer-form .form-group input[type="email"]:focus,
+.offer-form .form-group textarea:focus,
+.comment-form .form-group input[type="text"]:focus,
+.comment-form .form-group input[type="email"]:focus,
+.comment-form .form-group textarea:focus,
+.shop-comment-form .form-group input[type="text"]:focus,
+.shop-comment-form .form-group input[type="password"]:focus,
+.shop-comment-form .form-group input[type="tel"]:focus,
+.shop-comment-form .form-group input[type="email"]:focus,
+.shop-comment-form .form-group select:focus,
+.shop-comment-form .form-group textarea:focus,
+.shop-form input:focus,
+.shop-form select:focus,
+.shop-form textarea:focus {
+    border-color: #7fb943;
+}
+
+
+/*RGBA Color Light*/
+.therapist-block .inner-box .image .overlay-box,
+.gallery-item .inner-box .image .overlay-box,
+.services-block-two .inner-box .image .overlay,
+.gallery-block .inner-box .image-box .overlay-box {
+    background-color: rgba(46, 204, 64, 0.90);
+}
+
+/*RGBA Color Dark*/
+
+@media only screen and (max-width: 767px) {
+
+    .main-menu .navbar-header .navbar-toggle {
+        border-color: transparent;
+    }
+
+    .main-menu .navbar-header .navbar-toggle,
+    .main-menu .navbar-collapse > .navigation,
+    .main-menu .navbar-collapse > .navigation > li > ul,
+    .main-menu .navbar-collapse > .navigation > li > ul > li > ul,
+    .main-menu .navbar-collapse > .navigation > li > a,
+    .main-menu .navbar-collapse > .navigation > li > ul > li > a,
+    .main-menu .navbar-collapse > .navigation > li > ul > li > ul > li > a,
+    .header-style-two.inner-header .main-menu .navigation > li > a {
+        background-color: transparent;
+    }
+
+    .main-menu .navbar-collapse > .navigation > li > a {
+        background-color: transparent;
+    }
+
+    .main-menu .navbar-collapse > .navigation > li > a:active,
+    .main-menu .navbar-collapse > .navigation > li > a:focus,
+    .main-menu .navbar-collapse > .navigation > li > ul > li:hover > a,
+    .main-menu .navbar-collapse > .navigation > li > ul > li > ul > li:hover > a,
+    .dropdown-btn:hover span
+    {
+        /*background-color: #7fb943;*/
+        color: #7fb943;
+    }
+
+    .main-menu .navbar-collapse > .navigation > li > a:hover,
+        .main-menu .navbar-collapse > .navigation > li.current > a,
+        .main-menu .navbar-collapse > .navigation > li.current-menu-item > a {
+        background-color: transparent;
+    }
+
+    .current-collapsed {
+        color: #7fb943 !important;
+    }
+
+    .dropdown ul {
+        padding-left: 25px !important;
+    }
+
+    .dropdown ul li a {
+        font-size: 14px !important;
+    }
+}
+
+.list > li.current > a {
+    color: #7fb943 !important;
+}
