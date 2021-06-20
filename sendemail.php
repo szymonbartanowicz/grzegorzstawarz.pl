@@ -4,7 +4,6 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
-require 'vendor/autoload.php';
 
 define("RECIPIENT_NAME", "Grzegorz Stawarz");
 //define( "RECIPIENT_EMAIL", "kontakt@grzegorzstawarz.pl" );
